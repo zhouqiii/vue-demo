@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["user"],{1511:function(t,e,n){"use strict";n.r(e);var c=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("div",{staticStyle:{align:"center"}},[n("button",{attrs:{type:"button"},on:{click:t.jump}},[t._v("添加")])])},u=[],s={name:"User",methods:{jump:function(){this.$router.push("/add")}}},r=s,o=n("17cc"),a=Object(o["a"])(r,c,u,!1,null,"f7ebc784",null);e["default"]=a.exports}}]);
+//# sourceMappingURL=user.d2b51594.js.map
