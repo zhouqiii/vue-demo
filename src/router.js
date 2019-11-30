@@ -40,6 +40,11 @@ export default new Router({
       path: '/add',
       name: 'add',
       component: () => import(/* webpackChunkName: "add" */ './views/Add.vue')
+    },
+    {
+      path: '/editor',
+      name: 'editor',
+      component: () => import(/* webpackChunkName: "list" */ './components/Editor.vue')
     }
   ]
 })
