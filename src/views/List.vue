@@ -25,7 +25,10 @@ export default {
   }
 }
 </script>
-<style scoped lang="sass">
+<style>
+  ul{
+    margin-top: 0;
+  }
 </style>
 
 

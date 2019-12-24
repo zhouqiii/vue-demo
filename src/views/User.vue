@@ -8,7 +8,7 @@ export default {
   name: 'User',
   methods: {
     jump(){
-      this.$router.push('/add')
+      this.$router.push('add')
     }
   }
 }

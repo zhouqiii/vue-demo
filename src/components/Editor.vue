@@ -1,6 +1,6 @@
 <template>
   <div class="editor">
-    <h1>This is an editor page</h1>
+    <h1 class="htitle">This is an editor page</h1>
      <div class="editcontent">
          <quillEditor  v-model="content"
                :options="editorOption"
@@ -48,4 +48,7 @@ export default {
         padding: 1%;
         margin-left: 8%;
     }
+  .htitle{
+    margin-top: 0;
+  }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-   <p>标题：</p>
+   <p style="margin: 0">标题：</p>
    <input type="text" v-model="title"/>
    <p>内容：</p>
    <input type="text" v-model="content"/>
